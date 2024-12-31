@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #1d2e23, #618394);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  background: rgb(179, 136, 57);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #fcf9f9;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #84fab0;
+  box-shadow: 0 0 5px rgba(132, 250, 176, 0.5);
+}
+
+button {
+  background: #135e04c5;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #5ec89f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 70%;
+  background: #0f0f0f;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-left: 17PX;
+  margin-top: 10px;
+}
+.action-icons {
+  display: inline-flex;
+  gap: 10px; /* Space between icons */
+  margin-left: 10px; /* Space from the text */
+}
+
+.icon {
+  font-size: 20px; /* Adjust icon size */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.delete-icon {
+  color: #e74c3c; /* Red color for delete */
+}
+
+.edit-icon {
+  color: #f39c12; /* Orange color for edit */
+}
+
+.complete-icon {
+  color:
+   #2ecc71; /* Green color for complete */
+}
+#item{
+  opacity: 0.3;
+
+}
